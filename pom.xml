@@ -6,7 +6,7 @@
 
   <groupId>proj2</groupId>
   <artifactId>sample</artifactId>
-
+<packaging>war</packaging>
   <version>vesrion2.0</version>
 
   <name>sample</name>
