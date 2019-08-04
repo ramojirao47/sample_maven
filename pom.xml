@@ -6,7 +6,7 @@
 
   <groupId>proj2</groupId>
   <artifactId>sample</artifactId>
-<packaging>war</packaging>
+
   <version>vesrion2.0</version>
 
   <name>sample</name>
@@ -50,12 +50,8 @@
           <version>2.22.1</version>
         </plugin>
         <plugin>
-         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.3</version>
-        <configuration>
-          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
-        </configuration>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
